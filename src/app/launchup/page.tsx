@@ -46,7 +46,7 @@ export default function LaunchUPPage() {
                   LaunchUP is BuildRTP's flagship pitch competition where high school students can bring their innovative ideas to life. Whether you're a solo entrepreneur or part of a team, this is your chance to present your vision to experienced judges and compete for thousands in prize money.
                 </p>
                 <p className="text-lg text-foreground/80">
-                  Come with any idea - from tech startups to social impact initiatives. Our panel of judges with decades of experience will provide valuable feedback to help you refine your concept and take it to the next level.
+                  Come with any idea - from tech startups to social impact initiatives. Our panel of judges with decades of experience will provide valuable feedback to help you refine your concept and take it to the next level. Winners also gain access to our network of investors and seed fund opportunities to help turn their ideas into reality.
                 </p>
               </div>
               <div className="space-y-6">
@@ -58,14 +58,26 @@ export default function LaunchUPPage() {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-2xl font-bold text-mainblue">Thousands in Prizes</p>
-                    <p className="text-muted-foreground">Multiple categories and awards</p>
+                    <p className="text-2xl font-bold text-mainblue">Up to $5,000</p>
+                    <p className="text-muted-foreground">Cash prizes across multiple categories</p>
                   </CardContent>
                 </Card>
                 <Card>
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <Users className="w-5 h-5 text-orange" />
+                      Investor Support
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-2xl font-bold text-mainblue">Seed Fund Access</p>
+                    <p className="text-muted-foreground">Connect with investors and funding opportunities</p>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Clock className="w-5 h-5 text-orange" />
                       Team Size
                     </CardTitle>
                   </CardHeader>
@@ -137,7 +149,7 @@ export default function LaunchUPPage() {
             <div className="text-center">
               <h2 className="text-3xl font-bold text-mainblue mb-6">Ready to Launch Your Idea?</h2>
               <p className="text-lg text-foreground/80 mb-8 max-w-2xl mx-auto">
-                Don't miss this opportunity to showcase your innovation, receive expert feedback, and compete for amazing prizes. Registration is free and open to all high school students.
+                Don't miss this opportunity to showcase your innovation, receive expert feedback, compete for up to $5,000 in prizes, and connect with investors. Registration is free and open to all high school students.
               </p>
               <Button size="lg" className="bg-orange hover:bg-secondaryblue text-white text-lg px-8 py-4">
                 <Link href="https://buildrtp.org" target="_blank" rel="noopener noreferrer">
