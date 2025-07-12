@@ -113,7 +113,7 @@ export default function LaunchUPPage() {
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle>5:00 PM - 6:00 PM</CardTitle>
+                    <CardTitle>5:30 PM - 6:00 PM</CardTitle>
                     <CardDescription>Judging & Awards</CardDescription>
                   </CardHeader>
                   <CardContent>
