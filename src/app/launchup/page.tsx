@@ -25,7 +25,7 @@ export default function LaunchUPPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-5 h-5" />
-                  <span>12:30PM - 6:00PM</span>
+                  <span>2:00PM - 6:00PM</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-5 h-5" />
@@ -43,10 +43,10 @@ export default function LaunchUPPage() {
               <div>
                 <h2 className="text-3xl font-bold text-mainblue mb-6">What is LaunchUP?</h2>
                 <p className="text-lg text-foreground/80 mb-6">
-                  LaunchUP is BuildRTP's flagship pitch competition where high school students can bring their innovative ideas to life. Whether you're a solo entrepreneur or part of a team, this is your chance to present your vision to experienced judges and compete for thousands in prize money.
+                  LaunchUP is BuildRTP's flagship pitch competition where high school students can bring their innovative ideas to life. Whether you're a solo entrepreneur or part of a team, this is your chance to present your vision to seed investors who serve as our judges and compete for thousands in prize money.
                 </p>
                 <p className="text-lg text-foreground/80">
-                  Come with any idea - from tech startups to social impact initiatives. Our panel of judges with decades of experience will provide valuable feedback to help you refine your concept and take it to the next level. Winners also gain access to our network of investors and seed fund opportunities to help turn their ideas into reality.
+                  Come with any idea - from tech startups to social impact initiatives. Our panel of seed investor judges with decades of experience will provide valuable feedback to help you refine your concept and take it to the next level. Winners gain direct access to investor support that will help push their company forward and turn their ideas into reality.
                 </p>
               </div>
               <div className="space-y-6">
@@ -70,8 +70,8 @@ export default function LaunchUPPage() {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-2xl font-bold text-mainblue">Seed Fund Access</p>
-                    <p className="text-muted-foreground">Connect with investors and funding opportunities</p>
+                    <p className="text-2xl font-bold text-mainblue">Direct Investor Support</p>
+                    <p className="text-muted-foreground">Seed investors help push your company forward</p>
                   </CardContent>
                 </Card>
                 <Card>
@@ -95,7 +95,7 @@ export default function LaunchUPPage() {
               <div className="grid md:grid-cols-3 gap-6">
                 <Card>
                   <CardHeader>
-                    <CardTitle>12:30 PM - 1:30 PM</CardTitle>
+                    <CardTitle>2:00 PM - 2:30 PM</CardTitle>
                     <CardDescription>Registration & Networking</CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -104,20 +104,20 @@ export default function LaunchUPPage() {
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle>1:30 PM - 4:30 PM</CardTitle>
+                    <CardTitle>2:30 PM - 5:00 PM</CardTitle>
                     <CardDescription>Pitch Presentations</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <p>Present your ideas to our panel of expert judges. Each team gets dedicated time to showcase their vision.</p>
+                    <p>Present your ideas to our panel of seed investor judges. Each team gets dedicated time to showcase their vision.</p>
                   </CardContent>
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle>4:30 PM - 6:00 PM</CardTitle>
+                    <CardTitle>5:00 PM - 6:00 PM</CardTitle>
                     <CardDescription>Judging & Awards</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <p>Judges deliberate while participants network. Winners announced and prizes awarded!</p>
+                    <p>Seed investor judges deliberate while participants network. Winners announced and prizes awarded!</p>
                   </CardContent>
                 </Card>
               </div>
@@ -149,7 +149,7 @@ export default function LaunchUPPage() {
             <div className="text-center">
               <h2 className="text-3xl font-bold text-mainblue mb-6">Ready to Launch Your Idea?</h2>
               <p className="text-lg text-foreground/80 mb-8 max-w-2xl mx-auto">
-                Don't miss this opportunity to showcase your innovation, receive expert feedback, compete for up to $5,000 in prizes, and connect with investors. Registration is free and open to all high school students.
+                Don't miss this opportunity to showcase your innovation, receive feedback from seed investors, compete for up to $5,000 in prizes, and gain direct investor support to push your company forward. Registration is free and open to all high school students.
               </p>
               <Button size="lg" className="bg-orange hover:bg-secondaryblue text-white text-lg px-8 py-4">
                 <Link href="https://buildrtp.org" target="_blank" rel="noopener noreferrer">
